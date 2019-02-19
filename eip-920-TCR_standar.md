@@ -304,7 +304,7 @@ This function have 2 main functions:
 * Resolve an already existing challenge made to an application or already whitelisted listing.
 
 ###### Events emitted by a updateStatus
-An `__ApplicationWhitelisted` event is emitted if the application is successfully:
+An `_ApplicationWhitelisted` event is emitted if the application is successfully:
 ``` solidity
   event _ApplicationWhitelisted(bytes32 indexed listingHash);
 ```
@@ -355,7 +355,7 @@ Return the amount of token won by a Challenger or Applier for a specific challen
 
 
 ## Test Cases
-Open Curator - https://github.com/Xivis/opencurator
+Open Curator - https://github.com/Xivis/opencurator (https://open-curator.now.sh/)
 
 
 ## Implementation
